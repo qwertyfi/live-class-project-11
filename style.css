@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+* {
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    
+
+}
+body {
+    background-color: #FDFEFF;
+}
+
+.logo {
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-left: 90px;;
+}
+
+nav{
+    display: flex;
+   
+ 
+}
+.list-items {
+    margin-top: 20px;
+}
+
+.list-item{
+    border: none;
+    background: #fff;
+    color: rgb(73, 73, 73);
+    margin: 20px;
+}
+
+.list-item:hover {
+    color: #2f2f2f;
+    font-weight: 700;
+}
+
+
+.nav-button {
+    padding: 15px 30px;
+    color:#00A3FE;
+    font-weight: bold;
+    background-color: #fff;
+    border: #00A3FE solid 1px;
+    border-radius: 5px;
+    
+}
+
+.nav-button:hover{
+    background-color: #00A3FE;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top:100px;
+    
+}
+
+.hero-heading{
+    font-size: 3rem;
+    
+}
+.hero-para{
+    font-size: 15px;
+    color: #9c9c9c;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.hero-button{
+    padding: 15px 30px;
+    color: #fff;
+    background-color:;
+    background: linear-gradient(#95daff, #006aff);
+    box-shadow: 0px 5px  20px #b6c2c8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.hero-button:active{
+    box-shadow: 2px 2px 5px #2f2f2f;
+}
+.inverse{
+    
+    display: flex;
+    flex-direction: row-reverse;
+}
+.enlarge img{
+    height:300px;
+    margin-top: 40px;
+}
+
+.xenlarge {
+    height: 400px;  
+    margin-top: 40px; 
+}
+.colorful {
+    color: rgb(49, 49, 69);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 80px 40px 80px;
+    
+    
+    
+}
+
+.container-cards{
+    background: linear-gradient(#08B9F7, #0573EC);
+    text-align: center;
+    padding: 40px 0 40px 0;
+    
+    
+}
+.card-flex {
+    display: flex;
+    justify-content: center
+}
+
+.card {
+    width: 90%;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 30px 30px 0;
+    margin: 20px;
+    
+
+   
+}
+.list-img {
+    height:15px;
+  
+}
+.list-item {
+    list-style: none;
+    text-align: left;
+}
+.list-items {
+    margin-bottom: 40px;
+}
+  .pricing{
+    font-size: 25px;
+  }
+
+  .greyish {
+    color: #9c9c9c;
+  }
+
+.card-btn {
+   
+    margin-top: 20px;
+}
+.card-heading{
+    margin-bottom: 40px;
+}
+
+.container-heading{
+    font-size: 40px;
+    color: #fff;
+    margin: 20px;
+}
+
+.card-heading-grey{
+    background: rgb(51, 49, 49);
+    padding: 20px;
+    margin-right: -30px; 
+    margin-top: -20px; 
+    border-radius: 10px; 
+
+}
+.colorful-white{
+    color: #fff;
+}
+
+.feedback{
+    margin: 140px;
+}
+
+.feedback-header{
+    text-align: center;
+}
+.feedback-header h1{
+    font-size: 50px;
+}
+.feedback-header p{
+    margin: 20px 30% 20px 30%;
+    line-height: 20px;
+
+}
+
+.feedback-card {
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px #d2d2d2;
+    margin: 20px;
+    
+
+}
+.feedback-cards{
+    margin-left: 10%;
+}
+.user-details{
+    display: flex;
+    margin: 10px;
+}
+.user-info{
+    margin: 10px;
+}
+.user-info  p:first-child{
+    font-weight: 800;
+
+}
+.register {
+    background-image: url("./assets/footer-bg.svg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.content{
+    color: #fff;
+    margin: 100px 0 100px 0;
+
+}
+ .content h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+ }
+
+.register-btn{
+    padding: 15px;
+    color: #fff;
+    background: transparent;
+    border: #fff  2px solid;
+    border-radius: 5px;
+    font-weight: 800;
+    
+}
+.register-btn:hover{
+    background: #fff;
+    color: #2f2f2f;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 120px 0px 80px 0px;
+}
+
+
+.footer-lists{
+    display: flex;
+    text-align: left;
+    
+    
+    
+}
+.footer-list ul{
+    list-style: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+ 
+    
+    
+    
+}
+.item:hover {
+    font-weight: 800;
+}
+
+.item {
+    margin-top: 10px;
+}
+
+img[height="30"]{
+    margin-right: 10px;
+    cursor: pointer;
+}
