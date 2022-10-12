@@ -73,6 +73,9 @@ nav{
     display: flex;
     justify-content: space-around;
     margin-top:100px;
+    flex-wrap: wrap;
+    margin-left:20px;
+    margin-right: 20px;
     
 }
 
@@ -85,6 +88,7 @@ nav{
     color: #9c9c9c;
     line-height: 30px;
     margin-top: 40px;
+    
 }
 .hero-button{
     padding: 15px 30px;
@@ -100,6 +104,16 @@ nav{
 }
 .hero-button:active{
     box-shadow: 2px 2px 5px #2f2f2f;
+}
+@media screen and (max-width:750px) {
+    .hero-heading{
+        font-size: 2rem;
+    }  
+    .hero-image{
+        max-width: fit-content;
+        margin-left:20px;
+     margin-right: 20px;
+    }  
 }
 .inverse{
     
@@ -121,6 +135,7 @@ nav{
 
 .container {
     display: flex;
+    gap: 10px;
     justify-content: space-evenly;
     margin: 40px 80px 40px 80px;
     
@@ -137,16 +152,20 @@ nav{
 }
 .card-flex {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .card {
-    width: 90%;
+    min-width: 90%;
     background: #fff;
     border-radius: 20px;
     text-align: center;
     padding: 20px 30px 30px 0;
-    margin: 20px;
+    
     
 
    
@@ -197,7 +216,7 @@ nav{
 }
 
 .feedback{
-    margin: 140px;
+    margin: 120px;
 }
 
 .feedback-header{
@@ -212,17 +231,24 @@ nav{
 
 }
 
+
 .feedback-card {
     padding: 20px;
-    width: 30%;
+    max-width: 450px;
     border-radius: 20px;
     box-shadow: 0px 3px 2px #d2d2d2;
-    margin: 20px;
+    
     
 
 }
 .feedback-cards{
-    margin-left: 10%;
+    marginleft: 50px;
+    marginright: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 .user-details{
     display: flex;
@@ -235,16 +261,26 @@ nav{
     font-weight: 800;
 
 }
+@media screen and (max-width:700px) {
+    .feedback{
+        margin: 10px;
+    }
+    .feedback-header p{
+        margin: 20px 0%;
+    }
+   
+}
 .register {
     background-image: url("./assets/footer-bg.svg");
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .content{
     color: #fff;
-    margin: 100px 0 100px 0;
+    margin: 100px 20px 100px 20px;
 
 }
  .content h1{
@@ -259,6 +295,7 @@ nav{
     border: #fff  2px solid;
     border-radius: 5px;
     font-weight: 800;
+    margin-bottom: 20px;
     
 }
 .register-btn:hover{
@@ -271,6 +308,7 @@ nav{
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     
     margin: 120px 0px 80px 0px;
@@ -304,4 +342,9 @@ footer {
 img[height="30"]{
     margin-right: 10px;
     cursor: pointer;
+}
+@media screen and (max-width:700px) {
+.logo-footer{
+    display: none;
+}    
 }
