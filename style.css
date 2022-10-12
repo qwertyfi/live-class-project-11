@@ -20,7 +20,8 @@ body {
 }
 
 nav{
-    display: flex;
+    display: flex; 
+    justify-content: space-around;
    
  
 }
@@ -57,7 +58,16 @@ nav{
     transition: .5s;
     cursor: pointer;
 }
+@media  screen and (max-width:1300px) {
+    .list-item{
+        display: none;
+    }
+   .logo{
+    margin-left: 1px ;
+    margin-right: 1px ;
+   }
 
+}
 
 .hero-section {
     display: flex;
