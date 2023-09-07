@@ -15,7 +15,7 @@ I'm Wasit Ali and this is my 11th project on HTML and CSS.
 
 ![](./assets/2022-10-14-15-33-57.png)
 
-🚀 [Live Preview](https://effortless-syrniki-a4e289.netlify.app/)
+🚀 [Live Preview](https://live-class-project-11-silk.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
